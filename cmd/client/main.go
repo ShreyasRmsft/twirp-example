@@ -26,7 +26,7 @@ import (
 func main() {
 	// Create a client capable of talking to a Haberdasher server running on
 	// localhost. This is a generated function call.
-	client := haberdasher.NewHaberdasherJSONClient("http://localhost:8080", &http.Client{})
+	client := haberdasher.NewHaberdasherJSONClient("https://twirploadtest.azurewebsites.net", &http.Client{})
 
 	var (
 		hat *haberdasher.Hat

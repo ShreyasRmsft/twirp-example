@@ -1,0 +1,5 @@
+*.sh text eol=lf
+go.mod text eol=lf
+go.sum text eol=lf
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
